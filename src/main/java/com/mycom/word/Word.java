@@ -1,5 +1,8 @@
 package com.mycom.word;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+
 public class Word {
     private int id;
     private int level;
@@ -50,5 +53,8 @@ public class Word {
         for(int i=0; i<level; i++)slevel +="*";
         String str = String.format("%-3s",slevel)+String.format("%15s",word)+" "+meaning;
         return str;
+    }
+    public String toFileString(){
+        return this.level+"|"+this.word+"|"+this.meaning;
     }
 }
