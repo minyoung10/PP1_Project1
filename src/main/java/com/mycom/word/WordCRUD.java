@@ -96,4 +96,10 @@ public class WordCRUD implements ICRUD {
             System.out.println("취소 되었습니다.");
 
     }
+
+    public void searchWord() {
+        System.out.print("=> 검색할 단어 검색 : ");
+        String keyword =s.next();
+        ArrayList<Integer> idlist = this.listAll(keyword);
+    }
 }
