@@ -16,8 +16,8 @@ public class WordCRUD implements ICRUD {
     public Object add() {
         System.out.print("=> 난이도(1,2,3) & 새 단어 입력 : ");
         int level =s.nextInt();
-        String word = s.next();
-        s.nextLine(); // 엔터를 소비하기 위해 추가
+        String word =s.next();
+        s.nextLine(); // 엔터 키를 소비하기 위해 빈 라인 읽기
         System.out.print("뜻 입력 : ");
         String meaning = s.nextLine();
         return new Word(0,level,word,meaning);
@@ -28,9 +28,8 @@ public class WordCRUD implements ICRUD {
         System.out.println("새 단어가 단어장에 추가되었습니다. ");
     }
     @Override
-    public int update(Object obj) {
-        return 0;
-    }
+    public int update(Object obj) {return 0;}
+
 
     @Override
     public int delete(Object obj) {
@@ -47,5 +46,36 @@ public class WordCRUD implements ICRUD {
             System.out.println(list.get(i).toString());
         }
         System.out.println("-------------------------------");
+    }
+
+    public ArrayList<Integer> listAll(String keyword){
+        int j=0;
+        ArrayList<Integer> idlist = new ArrayList<>();
+        System.out.println("-------------------------------");
+        for (int i=0; i< list.size(); i++){
+            String word = list.get(i).getWord();
+            if (word.contains(keyword)) {
+                System.out.print((j+1)+" ");
+                System.out.println(list.get(i).toString());
+                idlist.add(i);
+                j++;
+                continue;
+            }
+        }
+        System.out.println("-------------------------------");
+        return idlist;
+    }
+    public void updateItem() {
+    System.out.print("=> 수정할 단어 검색 : ");
+    String keyword =s.next();
+    ArrayList<Integer> idlist = this.listAll(keyword);
+    System.out.print("=> 수정할 번호 선택 : ");
+    int id =s.nextInt();
+    s.nextLine();
+    System.out.print("뜻 입력 : ");
+    String meaning = s.nextLine();
+    Word word = list.get(idlist.get(id-1));
+    word.setMeaning(meaning);
+    System.out.println("단어 수정이 성공적으로 되었습니다!!");
     }
 }

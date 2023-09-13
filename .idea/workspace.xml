@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c4a8e9fb-9e81-4a1a-8486-21fb79a92366" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycom/word/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycom/word/Word.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mycom/word/WordCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycom/word/WordCRUD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mycom/word/WordManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycom/word/WordManager.java" afterDir="false" />
     </list>
@@ -52,7 +51,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -85,12 +84,26 @@
       <option name="presentableId" value="Default" />
       <updated>1694011183584</updated>
       <workItem from="1694011184576" duration="8204000" />
-      <workItem from="1694156844772" duration="580000" />
+      <workItem from="1694156844772" duration="1424000" />
+      <workItem from="1694159653325" duration="1063000" />
+      <workItem from="1694504921795" duration="1822000" />
+      <workItem from="1694606122216" duration="3417000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -99,11 +112,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/mycom/word/Main.java</url>
           <line>7</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/mycom/word/WordCRUD.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/mycom/word/Word.java</url>
