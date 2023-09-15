@@ -86,7 +86,13 @@
       <workItem from="1694159653325" duration="1063000" />
       <workItem from="1694504921795" duration="1822000" />
       <workItem from="1694606122216" duration="11002000" />
-      <workItem from="1694761225244" duration="396000" />
+      <workItem from="1694761225244" duration="690000" />
+      <workItem from="1694761974751" duration="86000" />
+      <workItem from="1694762197255" duration="6000" />
+      <workItem from="1694762255212" duration="529000" />
+      <workItem from="1694763021768" duration="453000" />
+      <workItem from="1694764688098" duration="794000" />
+      <workItem from="1694798353000" duration="1009000" />
     </task>
     <servers />
   </component>
@@ -109,7 +115,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/mycom/word/Main.java</url>
-          <line>7</line>
+          <line>5</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
